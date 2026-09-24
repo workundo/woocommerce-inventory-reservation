@@ -1,0 +1,33 @@
+﻿# WordPress
+wp-content/uploads/
+wp-content/cache/
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Build/package files
+*.zip
+
+# Antigravity temporary files
+.gemini/
+audit_temp/
